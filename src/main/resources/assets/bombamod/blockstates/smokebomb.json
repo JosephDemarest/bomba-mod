@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "unstable=false": { "model": "bombamod:block/smokebomb" },
+    "unstable=true": { "model": "bombamod:block/smokebomb_unstable" }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "bomba-mod",
+  "version": "${version}",
+  "name": "Bomba Mod",
+  "description": "Simple mod that adds all sorts of bombs to minecraft.",
+  "authors": [
+    "CypherPsycho"
+  ],
+  "contact": {
+    "repo": "https://github.com/JosephDemarest/bomba-mod"
+  },
+  "license": "MIT",
+  "icon": "assets/bomba-mod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.cypherpsycho.bombamod.client.BombaModClient"
+    ],
+    "main": [
+      "com.cypherpsycho.bombamod.BombaMod"
+    ]
+  },
+  "mixins": [
+    "bomba-mod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric": "*",
+    "minecraft": "1.19.3"
+  }
+}
